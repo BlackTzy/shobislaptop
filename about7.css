@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    min-height:160vh;
+    align-items: center;  
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(laptopBg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-bottom: 0px;
+    height: 160vh;
+}
+   
+#blink {
+    font-size: 20px;
+    font-weight: bold;
+    color: #2d38be;
+    animation: .1s blink_effect infinite;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin:auto;
+}
+.icon{
+    width:200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: blue;
+    font-size: 35px;
+    font-family: arial;
+    padding-left: 20px;
+    float:left;
+    padding-top: 10px; 
+}
+span{
+    color: #ea1538;     
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 75px;
+    margin-top: 27px;
+    font-size: 18px;   
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: #ea1538;
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 344px;
+    padding-top: 1%;    
+}
+.srch{
+    font-family: 'arial';
+    width: 200px;
+    height: 40px;
+    background: rgb(240, 235, 235);
+    border: transparent;
+    margin-top: 13px;
+    color: black;
+    border-right: none;
+    font-size: 18px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+input [type="srch"]::-webkit-input-placeholder{
+    color: black;
+}
+.btn{
+    width: 100px;
+    height: 44px;
+    background: red;
+    margin-top: 11px;
+    color: white;
+    font-size: 20px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;    
+}
+.btn:hover{
+    background-color: white;
+    transition: .3s ease;
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+
+.btnn {
+    width: 240px;
+    height: 40px;
+    background: red;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: .4s ease;
+}
+.btnn:hover{
+    background: white;
+    color: red;
+}
+.btnn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.icon a{
+    text-decoration: none;
+    color: white;
+}
+.icon ion-icon{
+    color: white;
+    font-size: 22px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: .3s ease;
+}
+.icon ion-icon:hover{
+    color: red;
+
+}
+.dropbtn {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-weight: bold;
+    color: white;
+    border: none;
+    padding: 0px;
+    font-size: 18px;
+    background: transparent;
+    text-decoration: none;
+    transition: .4s ease-in-out;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    background-color: transparent;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.062)(255, 0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+}
+.dropdown:hover .dropdown-content 
+{
+    display: block;
+}
+.section{
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    width: 80%;
+    margin: 1rem auto 0 auto;
+}
+.section img{
+    height: 250px; 
+   
+}
+.section h1{
+    margin: 0;
+    color: blue;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+.section p{
+    color: white;
+    margin-right: 15px;
+    text-align: justify;
+}
+.section h1:hover{
+    color: white;
+}
+.aboutus{
+    color: red;
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
